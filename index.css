@@ -32,15 +32,13 @@ h3{
 }
 
 ol{
-  text-align: left;
-}
-
-ol li{
   font-size: 130%;
   text-align: center;
   font-weight: 300;
   color: white; 
   display: inline-block;
+  margin-left: auto;
+  margin-right: auto;
   
 }
 
