@@ -16,12 +16,12 @@ body{
   }
 
 
-#container{
-    margin: auto;
+.header{
+    padding: 60px;
     text-align: center;
-    background-color: rgb(247, 8, 139);
-    color: black;
-    width: auto;
+    background: #1abc9c;
+    color: white;
+    font-size: 25px;
 }
 
 #container2{
@@ -56,7 +56,7 @@ footer{
 
 
   @media screen and (max-width: 768px){
-    #container{
+    .header{
     width: 90%;
     }
     #container2{
@@ -72,6 +72,7 @@ footer{
       font-size: 200%;
     }
   }
+
 
 
   
