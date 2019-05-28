@@ -1,76 +1,78 @@
 body{
-  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
-  color:yellow;
-  background-color: rgb(29, 10, 202);
-  text-align: center;
+    font-family: 'Courier New', Courier, monospace;
 }
+
+.flex-container{
+    display: flex;
+    justify-content: center;
+}
+
+.flex-container > div {
+    width: 100px;
+    margin: auto;
+    text-align: center;
+    line-height: 75px;
+    font-size: 15px; 
+  }
+
 
 #container{
-  width: 800px;
-  margin: 0 auto;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-h1{
-  font-size: 400%;
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: 500;
-}
-
-h2{
-  font-size: 200%;
-  text-align: center;
-  font-weight: 300;
-  text-transform: uppercase;
-  color: yellow;  
-}
-
-h3{
-  font-size: 180%;
-  text-align: center;
-  font-weight: 300;
-  color: yellow; 
-}
-
-ol{
-  font-size: 130%;
-  font-weight: 300;
-  color: white; 
-  display: inline-block;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-div{
+    margin: auto;
     text-align: center;
+    background-color: rgb(247, 8, 139);
+    color: black;
+    width: auto;
 }
 
-button{
+#container2{
+    margin: auto;
+    padding-top: 40px;
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 180%;
-    background-color: aqua;
-}
-
-#text{
-    color:  rgb(29, 10, 202);
-}
-
-@media screen and (max-width: 768px) {
-  #container{
-  width: 90%;
-  }
-    h1{
-    font-size: 200%;
-  }
-}
-
-@media only screen and (max-width: 400px) {
-  body {
+    color: black;
+    width: 1000px;
     
-  }
 }
 
+#container3{
+    margin: auto;
+    color: black;
+    width: auto;
+    column-count: 3;
+    text-align: center;
+    padding-top: 30px;
+}
+
+
+#testing{
+    margin-left: auto;
+}
+
+footer{
+    background-color: white;
+    color: black;
+    padding-top: 100px;
+    text-align: center;
+}
+
+
+  @media screen and (max-width: 768px){
+    #container{
+    width: 90%;
+    }
+    #container2{
+        width: 90%;  
+    }
+    #container3{
+        width: 90%;   
+    }
+    .flex-container{
+        width: 90%;
+    }
+      h1{
+      font-size: 200%;
+    }
+  }
+
+
+  
 

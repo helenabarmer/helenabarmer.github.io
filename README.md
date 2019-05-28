@@ -1,2 +1,1 @@
-# RandomElectionGenerator
-Random political parties generator.
+# HelloWorld
