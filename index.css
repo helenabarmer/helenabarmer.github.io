@@ -1,13 +1,18 @@
+* {
+    box-sizing: border-box;
+  }
+
 body{
     font-family: 'Courier New', Courier, monospace;
+    margin: 0;
 }
 
-.flex-container{
+.footer{
     display: flex;
     justify-content: center;
 }
 
-.flex-container > div {
+.footer > div {
     width: 100px;
     margin: auto;
     text-align: center;
@@ -16,14 +21,18 @@ body{
   }
 
 
-#header{
+.header{
     padding: 60px;
     text-align: center;
-    background: rgb(12, 184, 112);
+    background: #f01381;
     color: white;
     font-size: 25px;
     margin: auto;
 }
+
+.header h1 {
+    font-size: 40px;
+  }
 
 #container2{
     margin: auto;
@@ -57,7 +66,7 @@ footer{
 
 
   @media screen and (max-width: 768px){
-    #header{
+    .header{
     width: 90%;
     }
     #container2{
