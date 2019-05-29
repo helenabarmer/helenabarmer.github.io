@@ -22,7 +22,7 @@ body{
 
 
 .header{
-    padding: 60px;
+    padding: 20px;
     text-align: center;
     background: #f01381;
     color: white;
@@ -34,28 +34,27 @@ body{
     font-size: 40px;
   }
 
-#container2{
-    margin: auto;
-    padding-top: 40px;
-    text-align: center;
-    color: black;
-    width: 1000px;
-    
-}
 
-#container3{
+.displayDoing{
     margin: auto;
     color: black;
     width: auto;
-    column-count: 3;
     text-align: center;
     padding-top: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    
+    
 }
 
-
-#testing{
-    margin-left: auto;
+#generate{
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;
+    font-size: 30px;
+    background-color: rgb(202, 209, 209);
+    color: black;
+    
 }
+
 
 footer{
     background-color: white;
@@ -69,11 +68,12 @@ footer{
     .header{
     width: 90%;
     }
-    #container2{
-        width: 90%;  
-    }
-    #container3{
+   
+    .displayDoing{
         width: 90%;   
+    }
+    #generate{
+        width: 90%; 
     }
     .flex-container{
         width: 90%;
@@ -81,9 +81,6 @@ footer{
       h1{
       font-size: 200%;
     }
-  }
-
-
-
+}
   
 
